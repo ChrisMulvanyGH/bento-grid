@@ -27,3 +27,19 @@ $weight-semi-bold: 500;
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: "DM Sans", serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: $mobile;
+    margin: 0 auto;
+}
