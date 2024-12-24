@@ -17,10 +17,49 @@ p {
   font-family: "DM Sans", serif;
 }
 
+h1, h2 {
+  font-family: "DM Sans", serif;
+  font-weight: 500;
+}
+
+.text-black {
+  color: hsl(0, 0%, 7%);
+}
+
+.text-white {
+  color: hsl(0, 0%, 100%);
+}
+
+.text-light-yellow {
+  color: hsl(31, 66%, 93%);
+}
+
+.text-deep-yellow {
+  color: hsl(39, 100%, 71%);
+}
+
 .container {
-  display: flex;
-  flex-direction: column;
   width: 80%;
   max-width: 375px;
   margin: 0 auto;
+}
+
+.card {
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.card-purple {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(256, 67%, 59%);
+  align-items: center;
+}
+.card-purple .card-title {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.card-purple img {
+  padding-bottom: 16px;
 }/*# sourceMappingURL=style.css.map */

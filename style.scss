@@ -36,10 +36,55 @@ p {
     font-family: "DM Sans", serif;
 }
 
+h1, h2 {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+}
+
+
+
+.text-black {
+    color: $black;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-light-yellow {
+    color: $yellow-light;
+}
+
+.text-deep-yellow {
+    color: $yellow-deep;
+}
+
+
 .container {
-    display: flex;
-    flex-direction: column;
     width: 80%;
     max-width: $mobile;
     margin: 0 auto;
 }
+
+.card {
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.card-purple {
+    display: flex;
+    flex-direction: column;
+    background-color: $purple-deep;
+    align-items: center;
+
+    .card-title {
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+
+    img {
+        padding-bottom: 16px;
+    }
+}
+
