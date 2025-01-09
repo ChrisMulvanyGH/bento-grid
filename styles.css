@@ -5,6 +5,15 @@
 /* -- COLORS -- */
 /* -- FONT SIZES -- */
 /* -- FONT WEIGHTS -- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /* ---------------------------------------------------------------------------------------------------- */
 /* - RESETS - */
 *,
@@ -35,4 +44,5 @@ p {
 /* - LAYOUT - */
 .container {
   display: grid;
+  grid-template-columns: 1fr;
 }/*# sourceMappingURL=styles.css.map */
