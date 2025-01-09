@@ -126,9 +126,19 @@ header {
   .card-title {
     font-size: 1.25rem;
     font-weight: 500;
+    line-height: 23px;
   }
 
   .card-text {
-    font-size: 1rem;
+    font-size: $body;
+  }
+}
+
+.manage-acc-card {
+  background-color: white;
+
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
   }
 }

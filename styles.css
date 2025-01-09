@@ -102,7 +102,16 @@ header img {
 .card .card-title {
   font-size: 1.25rem;
   font-weight: 500;
+  line-height: 23px;
 }
 .card .card-text {
-  font-size: 1rem;
+  font-size: 1.125rem;
+}
+
+.manage-acc-card {
+  background-color: white;
+}
+.manage-acc-card img {
+  width: 100%;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=styles.css.map */
