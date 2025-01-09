@@ -95,7 +95,6 @@ header img {
 
 .card {
   margin-bottom: 2rem;
-  padding: 1rem;
   width: 100%;
   border-radius: 12px;
 }
@@ -109,9 +108,23 @@ header img {
 }
 
 .manage-acc-card {
+  padding: 1rem;
   background-color: white;
 }
 .manage-acc-card img {
   width: 100%;
   margin-bottom: 1rem;
+}
+
+.maintain-card {
+  padding: 1rem 1rem 0;
+  background-color: hsl(39, 100%, 71%);
+}
+.maintain-card .card-title {
+  margin-bottom: 1rem;
+}
+.maintain-card img {
+  margin-bottom: -6px;
+  width: 70%;
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */
