@@ -1,35 +1,17 @@
 /* - FONTS - */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
-
 /* - VARIABLES - */
-
 /* -- TARGET SCREEN SIZES -- */
-$mobile: 375px;
-$desktop: 1440px;
-
 /* -- COLORS -- */
-$light-purple: hsl(254, 88%, 90%);
-$dark-purple: hsl(256, 67%, 59%);
-$light-yellow: hsl(31, 66%, 93%);
-$dark-yellow: hsl(39, 100%, 71%);
-$white: hsl(0, 0%, 100%);
-$black: hsl(0, 0%, 7%);
-
 /* -- FONT SIZES -- */
-$body: 1.125rem;
-
 /* -- FONT WEIGHTS -- */
-$normal: 400;
-$semibold: 500;
-
 /* -- FONT COLORS -- */
-
 .text-white {
-  color: $white;
+  color: hsl(0, 0%, 100%);
 }
 
 .text-black {
-  color: $black;
+  color: hsl(0, 0%, 7%);
 }
 
 .attribution {
@@ -42,7 +24,6 @@ attribution a {
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
-
 /* - RESETS - */
 *,
 *::before,
@@ -54,7 +35,7 @@ attribution a {
 
 /* - TAGS - */
 html {
-  font-size: $body;
+  font-size: 1.125rem;
 }
 
 body,
@@ -64,12 +45,12 @@ p {
 }
 
 h1 {
-  font-weight: $semibold;
+  font-weight: 500;
 }
 
 body,
 p {
-  font-size: $body;
+  font-size: 1.125rem;
 }
 
 image {
@@ -77,13 +58,11 @@ image {
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
-
 /* - LAYOUT - */
-
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  max-width: $mobile;
+  max-width: 375px;
   margin: 0 auto;
   padding: 2rem 1rem;
   border: 1px solid red;
@@ -96,24 +75,21 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: $dark-purple;
-  color: $white;
+  background-color: hsl(256, 67%, 59%);
+  color: hsl(0, 0%, 100%);
   border-radius: 12px;
-
-  h1 {
-    font-size: 48px;
-    padding-bottom: 32px;
-    text-align: center;
-  }
-
-  .highlight {
-    color: $dark-yellow;
-  }
-
-  img {
-    height: 2rem;
-    margin-bottom: 1rem;
-  }
+}
+header h1 {
+  font-size: 48px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+header .highlight {
+  color: hsl(39, 100%, 71%);
+}
+header img {
+  height: 2rem;
+  margin-bottom: 1rem;
 }
 
 .card {
@@ -121,13 +97,11 @@ header {
   padding: 1rem;
   width: 100%;
   border-radius: 12px;
-
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
-
-  .card-text {
-    font-size: 1rem;
-  }
 }
+.card .card-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.card .card-text {
+  font-size: 1rem;
+}/*# sourceMappingURL=styles.css.map */
