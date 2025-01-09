@@ -1,0 +1,58 @@
+/* - FONTS - */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
+
+/* - VARIABLES - */
+
+/* -- TARGET SCREEN SIZES -- */
+$mobile: 375px;
+$desktop: 1440px;
+
+/* -- COLORS -- */
+$light-purple: hsl(254, 88%, 90%);
+$dark-purple: hsl(256, 67%, 59%);
+$light-yellow: hsl(31, 66%, 93%);
+$dark-yellow: hsl(39, 100%, 71%);
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 7%);
+
+/* -- FONT SIZES -- */
+$body: 1.125rem;
+
+/* -- FONT WEIGHTS -- */
+$normal: 400;
+$semibold: 500;
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* - RESETS - */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* - TAGS - */
+body,
+h1,
+p {
+  font-family: "DM Sans", serif;
+}
+
+h1 {
+  font-weight: $semibold;
+}
+
+body,
+p {
+  font-size: $body;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* - LAYOUT - */
+
+.container {
+  display: grid;
+}
