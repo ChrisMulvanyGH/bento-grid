@@ -40,6 +40,10 @@ attribution a { color: hsl(228, 45%, 44%); }
 }
 
 /* - TAGS - */
+html {
+  font-size: $body;
+}
+
 body,
 h1,
 p {
@@ -55,6 +59,10 @@ p {
   font-size: $body;
 }
 
+image {
+  max-width: 100%;
+}
+
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* - LAYOUT - */
@@ -62,4 +70,41 @@ p {
 .container {
   display: grid;
   grid-template-columns: 1fr;
+  max-width: $mobile;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  border: 1px solid red;
+}
+
+.card {
+  padding: 1rem;
+  width: 100%;
+  background-color: $light-yellow;
+}
+
+header {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $dark-purple;
+  color: $white;
+  border-radius: 12px;
+
+  h1 {
+    font-size: 48px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+
+  .highlight {
+    color: $dark-yellow;
+  }
+  
+  img {
+    height: 2rem;
+    margin-bottom: 1rem;
+  }
 }
