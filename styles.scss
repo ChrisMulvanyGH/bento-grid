@@ -171,3 +171,25 @@ header {
     text-align: center;
   }
 }
+
+.grow-followers-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: $dark-purple;
+
+  img {
+    padding-bottom: 2.5rem;
+    width: 70%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+}

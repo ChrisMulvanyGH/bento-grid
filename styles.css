@@ -140,4 +140,24 @@ header img {
 }
 .schedule-card .card-text {
   text-align: center;
+}
+
+.grow-followers-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: hsl(256, 67%, 59%);
+}
+.grow-followers-card img {
+  padding-bottom: 2.5rem;
+  width: 70%;
+  height: auto;
+}
+.grow-followers-card .card-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0 1rem;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
