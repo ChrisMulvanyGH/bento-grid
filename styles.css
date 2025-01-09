@@ -35,16 +35,18 @@ attribution a {
 
 /* - TAGS - */
 html {
-  font-size: 1.125rem;
+  font-size: 16px;
 }
 
 body,
 h1,
+h2,
 p {
   font-family: "DM Sans", serif;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: 500;
 }
 
@@ -98,13 +100,15 @@ header img {
   width: 100%;
   border-radius: 12px;
 }
-.card .card-title {
-  font-size: 1.25rem;
-  font-weight: 500;
+.card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
   line-height: 23px;
+  letter-spacing: 3%;
 }
 .card .card-text {
   font-size: 1.125rem;
+  line-height: 23px;
 }
 
 .manage-acc-card {
@@ -113,18 +117,27 @@ header img {
 }
 .manage-acc-card img {
   width: 100%;
-  margin-bottom: 1rem;
 }
 
 .maintain-card {
   padding: 1rem 1rem 0;
   background-color: hsl(39, 100%, 71%);
 }
-.maintain-card .card-title {
-  margin-bottom: 1rem;
-}
 .maintain-card img {
   margin-bottom: -6px;
   width: 70%;
   height: auto;
+}
+
+.schedule-card {
+  padding: 1rem;
+  background-color: hsl(254, 88%, 90%);
+}
+.schedule-card img {
+  padding-bottom: 1.5rem;
+  width: 100%;
+  height: auto;
+}
+.schedule-card .card-text {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

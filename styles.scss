@@ -54,16 +54,18 @@ attribution a {
 
 /* - TAGS - */
 html {
-  font-size: $body;
+  font-size: 16px;
 }
 
 body,
 h1,
+h2,
 p {
   font-family: "DM Sans", serif;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: $semibold;
 }
 
@@ -122,14 +124,16 @@ header {
   width: 100%;
   border-radius: 12px;
 
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: 500;
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
     line-height: 23px;
+    letter-spacing: 3%;
   }
 
   .card-text {
     font-size: $body;
+    line-height: 23px;
   }
 }
 
@@ -139,7 +143,6 @@ header {
 
   img {
     width: 100%;
-    margin-bottom: 1rem;
   }
 }
 
@@ -147,13 +150,24 @@ header {
   padding: 1rem 1rem 0;
   background-color: $dark-yellow;
 
-  .card-title {
-    margin-bottom: 1rem;
-  }
-
   img {
     margin-bottom: -6px;
     width: 70%;
     height: auto;
+  }
+}
+
+.schedule-card {
+  padding: 1rem;
+  background-color: $light-purple;
+
+  img {
+    padding-bottom: 1.5rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .card-text {
+    text-align: center;
   }
 }
