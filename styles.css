@@ -22,6 +22,10 @@
   color: hsl(256, 67%, 59%);
 }
 
+.italic-text {
+  font-style: italic;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -72,6 +76,7 @@ image {
 .container {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 2rem;
   max-width: 375px;
   margin: 0 auto;
   padding: 2rem 1rem;
@@ -80,24 +85,22 @@ image {
 
 header {
   width: 100%;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
+  padding: 2.3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 0.5rem;
   align-items: center;
   background-color: hsl(256, 67%, 59%);
   color: hsl(0, 0%, 100%);
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 header h1 {
   font-size: 48px;
-  padding-bottom: 32px;
+  line-height: 1;
   text-align: center;
 }
 header img {
   height: 2rem;
-  margin-bottom: 1rem;
 }
 
 .card {
