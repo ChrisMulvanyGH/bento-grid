@@ -116,34 +116,34 @@ header img {
   line-height: 23px;
 }
 
-.manage-acc-card {
+.multiple-accounts-card {
   padding: 1rem;
   background-color: white;
 }
-.manage-acc-card img {
+.multiple-accounts-card img {
   width: 100%;
 }
 
-.maintain-card {
+.consistent-posting-card {
   padding: 1rem 1rem 0;
   background-color: hsl(39, 100%, 71%);
 }
-.maintain-card img {
+.consistent-posting-card img {
   margin-bottom: -6px;
   width: 70%;
   height: auto;
 }
 
-.schedule-card {
+.schedule-social-card {
   padding: 1rem;
   background-color: hsl(254, 88%, 90%);
 }
-.schedule-card img {
+.schedule-social-card img {
   padding-bottom: 1.5rem;
   width: 100%;
   height: auto;
 }
-.schedule-card .card-text {
+.schedule-social-card .card-text {
   text-align: center;
 }
 
