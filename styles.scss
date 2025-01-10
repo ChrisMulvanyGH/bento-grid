@@ -232,3 +232,19 @@ header {
     width: 60%;
   }
 }
+
+.ai-content-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: $dark-yellow;
+
+  .card-title {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  img {
+    width: 75%;
+  }
+}

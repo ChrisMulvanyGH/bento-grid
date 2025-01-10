@@ -195,4 +195,18 @@ header img {
 }
 .quicker-content-card img {
   width: 60%;
+}
+
+.ai-content-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: hsl(39, 100%, 71%);
+}
+.ai-content-card .card-title {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+.ai-content-card img {
+  width: 75%;
 }/*# sourceMappingURL=styles.css.map */
