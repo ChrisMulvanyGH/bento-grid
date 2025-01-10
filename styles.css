@@ -160,4 +160,21 @@ header img {
   line-height: 28px;
   padding: 0 1rem;
   text-align: center;
+}
+
+.faster-growth-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+}
+.faster-growth-card .card-title {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+.faster-growth-card .card-text {
+  margin-bottom: 1.5rem;
+}
+.faster-growth-card img {
+  width: 60%;
 }/*# sourceMappingURL=styles.css.map */

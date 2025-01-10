@@ -193,3 +193,23 @@ header {
     text-align: center;
   }
 }
+
+.faster-growth-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: $white;
+
+  .card-title {
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-text {
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    width: 60%;
+  }
+}
