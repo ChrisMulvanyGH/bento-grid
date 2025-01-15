@@ -12,5 +12,8 @@
       "savePath": "/dist/css"
     }
   ],
-  "cSpell.words": ["Bento"]
+  "cSpell.words": [
+    "Bento"
+  ],
+  "liveServer.settings.port": 5501
 }

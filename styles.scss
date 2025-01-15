@@ -109,15 +109,14 @@ header {
   padding: 2.3rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  // justify-content: space-between;
+  gap: 1rem;
   align-items: center;
   background-color: $dark-purple;
   color: $white;
   border-radius: 0.75rem;
 
   h1 {
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 1;
     text-align: center;
   }
@@ -130,13 +129,11 @@ header {
 .card {
   margin-bottom: 2rem;
   width: 100%;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 
   h2 {
-    margin-bottom: 1rem;
     font-size: 1.5rem;
-    line-height: 23px;
-    letter-spacing: 3%;
+    line-height: 1.5rem;
   }
 
   .card-text {
@@ -146,7 +143,7 @@ header {
 }
 
 .multiple-accounts-card {
-  padding: 1rem;
+  // padding: 1rem;git
   background-color: white;
 
   img {
